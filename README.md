@@ -1,6 +1,7 @@
 # Overlapping-Cluster-GCN
 ==========
- [![repo size](https://img.shields.io/github/repo-size/mamintoosi/OverlappingClusterGCN.svg)](https://github.com/mamintoosi/OverlappingClusterGCN/archive/master.zip)⠀[![mamintoosi]
+ [![repo size](https://img.shields.io/github/repo-size/mamintoosi/Overlapping-Cluster-GCN.svg)](https://github.com/mamintoosi/Overlapping-Cluster-GCN/archive/master.zip)
+ 
 A PyTorch implementation of "Overlapping Clusters in Cluster Convolutional Networks" (Submitted)
 <p align="center">
   <img width="600" src="images/OverlappedClusters.png">
@@ -23,14 +24,17 @@ The experimental results show that the proposed method is more efficient than
 Cluster-GCN, in average.
 </p>
 
-This repository provides a PyTorch implementation of OverlappingClusterGCN as described in the submitted paper:
+This repository provides a PyTorch implementation of Overlapping-Cluster-GCN as described in the submitted paper:
 
-> Overlapping Clusters in Cluster Convolutional Networks
-> Mahmood Amintoosi
+> Overlapping Clusters in Cluster Convolutional Networks,
+> Mahmood Amintoosi,
 > JAC, 2021
 
 ### Requirements
 The codebase is implemented in current version of Python on Google colab.
+
+### Run on Google Colab
+https://colab.research.google.com/github/mamintoosi/Overlapping-Cluster-GCN/blob/master/OverlappingClusterGCN.ipynb
 
 ### Datasets
 <p align="justify">
@@ -48,11 +52,12 @@ PyTorch-geometric </a>
   --learning-rate       FLOAT   Adam learning rate.            Default is 0.01.
   --dropout             FLOAT   Dropout rate value.            Default is 0.5.
   --layers              LST     Layer sizes.                   Default is [16, 16, 16]. 
+  --membership-closeness FLOAT  WMC parameter					Default is 0.1
+  --dataset-name		STR		Dataset Name					Default is Cora
 ```
-### Run on Google Colab
-https://colab.research.google.com/github/mamintoosi/Overlapping-Cluster-GCN/blob/master/OverlappingClusterGCN.ipynb
-
 -------------------------------------------------------
+
+This code is heavily borrowed from <a href="https://github.com/benedekrozemberczki/ClusterGCN">ClusterGCN</a>
 
 **License**
 
