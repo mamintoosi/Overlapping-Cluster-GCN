@@ -1,4 +1,4 @@
-# Overlapping-Cluster-GCN
+Overlapping-Cluster-GCN
 ==========
  [![repo size](https://img.shields.io/github/repo-size/mamintoosi/Overlapping-Cluster-GCN.svg)](https://github.com/mamintoosi/Overlapping-Cluster-GCN/archive/master.zip)
  
@@ -36,8 +36,8 @@ The codebase is implemented in Python 3.7.11 on Google colab. package versions u
 torch-scatter 		2.0.8
 torch-sparse		0.6.11
 torch-geometric		1.7.2
-texttable			1.6.4
-karateclub			1.2.1
+texttable		1.6.4
+karateclub		1.2.1
 ```
 
 ### Run on Google Colab
@@ -45,7 +45,7 @@ https://colab.research.google.com/github/mamintoosi/Overlapping-Cluster-GCN/blob
 
 ### Datasets
 <p align="justify">
-We used some the citation network datasets, which are accessible from <a href=https://pytorch-geometric.readthedocs.io/en/latest/modules/datasets.html>
+We used some of the citation network datasets, which are accessible from <a href=https://pytorch-geometric.readthedocs.io/en/latest/modules/datasets.html>
 PyTorch-geometric </a>
 </p>
 
