@@ -1,2 +1,59 @@
 # Overlapping-Cluster-GCN
-A PyTorch implementation of "Overlapping Clusters in Cluster Convolutional Networks"
+==========
+ [![repo size](https://img.shields.io/github/repo-size/mamintoosi/OverlappingClusterGCN.svg)](https://github.com/mamintoosi/OverlappingClusterGCN/archive/master.zip)⠀[![mamintoosi]
+A PyTorch implementation of "Overlapping Clusters in Cluster Convolutional Networks" (Submitted)
+<p align="center">
+  <img width="600" src="images/OverlappedClusters.png">
+</p>
+
+### Abstract
+
+<p align="justify">
+A popular research topic in Graph Convolutional Networks (GCNs) is to speedup
+the training time of the network. The main bottleneck in training GCN is the
+exponentially growing of computations.  In Cluster-GCN based on this fact that each
+node and its neighbors are usually grouped in the same cluster, considers the
+clustering structure of the graph, and expand each node’s neighborhood within
+each cluster when training GCN. The main assumption of Cluster-GCN is the
+weak relation between clusters; which is not correct at all graphs. Here we extend their approach by overlapped clustering, instead of crisp clustering which
+is used in Cluster-GCN. This is achieved by allowing the marginal nodes to
+contribute to training in more than one cluster. The evaluation of the proposed
+method is investigated through the experiments on several benchmark datasets.
+The experimental results show that the proposed method is more efficient than
+Cluster-GCN, in average.
+</p>
+
+This repository provides a PyTorch implementation of OverlappingClusterGCN as described in the submitted paper:
+
+> Overlapping Clusters in Cluster Convolutional Networks
+> Mahmood Amintoosi
+> JAC, 2021
+
+### Requirements
+The codebase is implemented in current version of Python on Google colab.
+
+### Datasets
+<p align="justify">
+We used some the citation network datasets, which are accessible from <a href=https://pytorch-geometric.readthedocs.io/en/latest/modules/datasets.html>
+PyTorch-geometric </a>
+</p>
+
+#### Model options
+```
+  --clustering-method   STR     Clustering method.             Default is `DANMF`.
+  --cluster-number      INT     Number of clusters.            Default is 2x Number of dataset labels. 
+  --seed                INT     Random seed.                   Default is 42.
+  --epochs              INT     Number of training epochs.     Default is 10.
+  --test-ratio          FLOAT   Training set ratio.            Default is 0.3.
+  --learning-rate       FLOAT   Adam learning rate.            Default is 0.01.
+  --dropout             FLOAT   Dropout rate value.            Default is 0.5.
+  --layers              LST     Layer sizes.                   Default is [16, 16, 16]. 
+```
+### Run on Google Colab
+https://colab.research.google.com/github/mamintoosi/Overlapping-Cluster-GCN/blob/master/OverlappingClusterGCN.ipynb
+
+-------------------------------------------------------
+
+**License**
+
+- [GNU](https://github.com/mamintoosi/ClusterGCN/blob/master/LICENSE)
