@@ -70,8 +70,5 @@ PyTorch-geometric </a>
 
 This code is heavily borrowed from <a href="https://github.com/benedekrozemberczki/ClusterGCN">ClusterGCN</a>
 
-**License**
-
-- [GNU](https://github.com/mamintoosi/ClusterGCN/blob/master/LICENSE)
 
 [![Github All Releases](https://img.shields.io/github/downloads/mamintoosi/Overlapping-Cluster-GCN/total.svg)]()
