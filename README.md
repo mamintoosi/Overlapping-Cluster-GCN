@@ -3,6 +3,9 @@ Overlapping-Cluster-GCN
  [![repo size](https://img.shields.io/github/repo-size/mamintoosi/Overlapping-Cluster-GCN.svg)](https://github.com/mamintoosi/Overlapping-Cluster-GCN/archive/master.zip)
  ![GitHub all releases](https://img.shields.io/github/downloads/mamintoosi/Overlapping-Cluster-GCN/total)
  
+ [![Github All Releases](https://img.shields.io/github/downloads/mamintoosi/Overlapping-Cluster-GCN/total.svg)]()
+
+ 
 A PyTorch implementation of "Overlapping Clusters in Cluster Convolutional Networks" (Submitted)
 <p align="center">
   <img width="600" src="images/OverlappedClusters.png">
