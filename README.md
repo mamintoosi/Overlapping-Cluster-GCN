@@ -1,10 +1,10 @@
 Overlapping-Cluster-GCN
 ==========
  [![repo size](https://img.shields.io/github/repo-size/mamintoosi/Overlapping-Cluster-GCN.svg)](https://github.com/mamintoosi/Overlapping-Cluster-GCN/archive/master.zip)
- ![GitHub all releases](https://img.shields.io/github/downloads/mamintoosi/Overlapping-Cluster-GCN/total)
+ [![GitHub forks](https://img.shields.io/github/forks/mamintoosi/Overlapping-Cluster-GCN)](https://github.com/mamintoosi/Overlapping-Cluster-GCN/network)
+[![GitHub issues](https://img.shields.io/github/issues/mamintoosi/Overlapping-Cluster-GCN)](https://github.com/mamintoosi/Overlapping-Cluster-GCN/issues)
+[![GitHub license](https://img.shields.io/github/license/mamintoosi/Overlapping-Cluster-GCN)](https://github.com/mamintoosi/Overlapping-Cluster-GCN/blob/main/LICENSE)
  
- [![Github All Releases](https://img.shields.io/github/downloads/mamintoosi/Overlapping-Cluster-GCN/total.svg)]()
-
  
 A PyTorch implementation of "Overlapping Clusters in Cluster Convolutional Networks" (Submitted)
 <p align="center">
@@ -73,3 +73,5 @@ This code is heavily borrowed from <a href="https://github.com/benedekrozembercz
 **License**
 
 - [GNU](https://github.com/mamintoosi/ClusterGCN/blob/master/LICENSE)
+
+[![Github All Releases](https://img.shields.io/github/downloads/mamintoosi/Overlapping-Cluster-GCN/total.svg)]()
