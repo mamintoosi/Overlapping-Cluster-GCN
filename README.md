@@ -6,10 +6,16 @@ Overlapping-Cluster-GCN
 [![GitHub license](https://img.shields.io/github/license/mamintoosi/Overlapping-Cluster-GCN)](https://github.com/mamintoosi/Overlapping-Cluster-GCN/blob/main/LICENSE)
  
  
-A PyTorch implementation of "Overlapping Clusters in Cluster Convolutional Networks" (Submitted)
+A PyTorch implementation of "Overlapping Clusters in Cluster Convolutional Networks"
 <p align="center">
   <img width="600" src="images/OverlappedClusters.png">
 </p>
+
+This repository provides a PyTorch implementation of Overlapping-Cluster-GCN as described in the following paper:
+
+> <a href="https://jac.ut.ac.ir/article_85195.html"> Overlapping Clusters in Cluster Convolutional Networks, </a>
+> Mahmood Amintoosi,
+> JAC, 53(2), pp. 33-45, 2021
 
 ### Abstract
 
@@ -28,11 +34,6 @@ The experimental results show that the proposed method is more efficient than
 Cluster-GCN, in average.
 </p>
 
-This repository provides a PyTorch implementation of Overlapping-Cluster-GCN as described in the submitted paper:
-
-> Overlapping Clusters in Cluster Convolutional Networks,
-> Mahmood Amintoosi,
-> JAC, 2021
 
 ### Requirements
 The codebase is implemented in Python 3.7.11 on Google colab. package versions used for development are just below.
