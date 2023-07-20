@@ -6,16 +6,18 @@ Overlapping-Cluster-GCN
 [![GitHub license](https://img.shields.io/github/license/mamintoosi/Overlapping-Cluster-GCN)](https://github.com/mamintoosi/Overlapping-Cluster-GCN/blob/main/LICENSE)
  
  
-A PyTorch implementation of "Overlapping Clusters in Cluster Convolutional Networks"
+A PyTorch implementation of "Overlapping Clusters in Cluster Graph Convolutional Networks"
 <p align="center">
   <img width="600" src="images/OverlappedClusters.png">
 </p>
 
 This repository provides a PyTorch implementation of Overlapping-Cluster-GCN as described in the following paper:
 
-> <a href="https://jac.ut.ac.ir/article_85195.html"> Overlapping Clusters in Cluster Convolutional Networks, </a>
+> <a href="https://jac.ut.ac.ir/article_85195.html"> Overlapping Clusters in Cluster [Graph] Convolutional Networks, </a>
 > Mahmood Amintoosi,
 > JAC, 53(2), pp. 33-45, 2021
+
+**Note: In the published version of the paper, GRAPH was mistakenly dropped from the title.**
 
 ### Abstract
 
